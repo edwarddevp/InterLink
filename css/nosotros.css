@@ -1,0 +1,31 @@
+.content{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap:0.5rem;
+    padding: 2rem;
+    background-color: #d1e2f0;
+    align-items: center;
+}
+
+.info-item{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap:1rem;
+    border-bottom: 1px solid #505050;
+    padding: 2rem;
+    padding-top: 0rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.info-item-title{
+    font-size: 30px;
+    color: #2a628f;
+}
+
+.info-item-content{
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap:1rem;
+    font-size: 20px;
+}

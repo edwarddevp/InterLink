@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptiLink</title>
+    <link rel="stylesheet" type="text/css" href="./css/layout.css">
+    <link rel="stylesheet" type="text/css" href="./css/contacto.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class='nav'>
+                <a href="/">
+                    <div class=nav-logo>
+                        <img src="./icons/signal.png" alt="Logo"/>
+                        <h1 class=nav-title>OptiLink</h1>
+                    </div>
+                </a>
+                <div class="menu-options">
+                    <a class="menu-link" href="/"><div class="menu-item">Inicio</div></a>
+                    <a class="menu-link" href="noticias.html"><div class="menu-item">Noticias</div></a>
+                    <a class="menu-link" href="planes.html"><div class="menu-item">Planes</div></a>
+                    <a class="menu-link" href="nosotros.html"><div class="menu-item">Nosotros</div></a>
+                    <a class="menu-link" href="unete-al-equipo.html"><div class="menu-item">Unete</div></a>
+                    <a class="menu-link" href="contacto.html"><div class="menu-item menu-item-contactanos">Contactanos</div></a>
+                    <!-- <div><a href="support.html">Soporte</a></div> -->
+                </div>
+            </nav>
+        </header>
+        <main class="content">
+                <form name="form1" action="#" method="post">
+                    <div class="form-container">
+                        <h3 class="form-title">Rellena el formulario y contactanos</h3>
+                        <div class="field-container">
+                            <label class="form-label" for="name" >Tu Nombre:</label>
+                            <input autocomplete="off" class="form-input" id="name" name="nombre" type="text" required>
+                        </div>
+                        <div class="field-container">
+                            <label class="form-label" for="apellido" >Tu Apellido:</label>
+                            <input autocomplete="off" class="form-input" id="napellidoame" name="nombre" type="text" required>
+                        </div>
+                        <div class="field-container">   
+                            <label for="email" class="form-label">Tu correo:</label>
+                            <input autocomplete="off" id="email" class="form-input" type="email" name="correo" required>
+                        </div>
+                        <div class="field-container">
+                            <label for="number" class="form-label">Tu Número Móvil:</label>
+                            <input autocomplete="off" id="number" class="form-input" name="telefono" type="text">
+                        </div>
+                        <div class="field-container">
+                            <label for="message" class="form-label">Tu Mensaje:</label>
+                            <textarea id="message" class="form-input" name="mensaje"></textarea>
+                        </div>
+                        <input autocomplete="off" class="blue button" type="submit" value="Enviar Mensaje">
+                    </div>   
+                </form>
+        </main>
+        <footer class="footer">
+            Copyright 2020. Todos los derechos reservados. <br /> Maracaibo Venezuela
+        </footer>    
+    </div>
+</body>
+</html>
